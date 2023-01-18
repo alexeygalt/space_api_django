@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "space-api"
+version = "0.1.0"
+description = ""
+authors = ["alexeygalt <alexeygalt@gmail.com>"]
+readme = "README.md"
+packages = [{include = "space_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+djangorestframework = "^3.14.0"
+django = "^4.1.5"
+djangorestframework-simplejwt = "^5.2.2"
+drf-spectacular = "^0.25.1"
+pytest-django = "^4.5.2"
+pytest-factoryboy = "^2.5.1"
+coverage = "^7.0.5"
+pytest-cov = "^4.0.0"
+psycopg2-binary = "^2.9.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
