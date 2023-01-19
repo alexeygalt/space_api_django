@@ -10,7 +10,7 @@
 ## Check URL's:
 
 - You can check project at with swagger : `http://localhost:8000/`
-- You can also create one test user with :
+- I  also create one test user and You can use these data :
         `username : test`
         `password : test`
 - Use these user's options to take Token by url `'users/token/'` method POST     
